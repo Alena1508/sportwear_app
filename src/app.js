@@ -1,14 +1,16 @@
+import { BrowserRouter as Router } from 'react-router-dom';
 import ReactDom from 'react-dom';
-import { Header } from './Header';
-import { Main } from './Main';
-import { Footer } from './Footer';
+import { Provider } from 'react-redux';
 
-const component = (
-  <React.Fragment>
-    <Header />
-    <Main />
-    <div>Test</div>
-    <Footer />
-  </React.Fragment>
+import { store } from './store';
+import { App } from './app.component';
+
+const Root = () => (
+  <Router>
+    <App />
+  </Router>
 );
-ReactDom.render(component, document.getElementById('app'));
+
+const MainApp = <Provider store={store}><Root/></Provider>;
+
+ReactDom.render(MainApp, document.getElementById('app'));
