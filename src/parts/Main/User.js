@@ -10,22 +10,18 @@ export class UserContainer extends React.Component {
   // }
 
   render() {
-    const { user, information } = this.props;
     return (
       <div className="user-info">
-        {user && <h2>{user.firstName}</h2>}
-        <p>{`You have ${information.total} tasks`}</p>
-        <p>{`Done: ${information.done} `}</p>
-        <p>{`In progress: ${information.inProgress} `}</p>
-        <p>{`Waiting: ${information.waiting} `}</p>
-        <Link to="/tasks">Go to the task list</Link>
+        <h2>S&W Shop</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium, alias animi consequuntur cupiditate doloremque eius esse eveniet harum ipsum labore laboriosam libero molestiae nesciunt quis recusandae rem saepe ullam.</p>
+        <Link to="/categories">Go to the categories</Link>
       </div>
     );
   }
 }
 
-const mapStoreToProps = ({ user, information }) => ({
-  user, information
+const mapStoreToProps = ({ information }) => ({
+   information
 });
 
 export const User = connect(mapStoreToProps)(UserContainer);

@@ -46,7 +46,11 @@ export class AppComponent extends React.Component {
             user !== false ?
               <Pages
                 user={user}
-              /> : <Loader />
+              /> :
+              console.log(user)
+
+
+            // <Loader />
           }
           <div className="push" />
         </div>
