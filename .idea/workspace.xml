@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="688191c4-0a77-402e-a6b7-52e7478f984b" name="Default" comment="navigation">
+    <list default="true" id="688191c4-0a77-402e-a6b7-52e7478f984b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.component.js" afterPath="$PROJECT_DIR$/src/app.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/parts/Main/User.js" afterPath="$PROJECT_DIR$/src/parts/Main/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/parts/Navigation/Navigation.js" afterPath="$PROJECT_DIR$/src/parts/Navigation/Navigation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/sagas/rootSaga.js" afterPath="$PROJECT_DIR$/src/store/sagas/rootSaga.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/sagas/tasksSaga.js" afterPath="$PROJECT_DIR$/src/store/sagas/tasksSaga.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/store.js" afterPath="$PROJECT_DIR$/src/store/store.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -333,12 +327,20 @@
       <workItem from="1529501097805" duration="1085000" />
       <workItem from="1529573537954" duration="4045000" />
       <workItem from="1530093706403" duration="5178000" />
-      <workItem from="1530186791101" duration="2882000" />
+      <workItem from="1530186791101" duration="2895000" />
     </task>
+    <task id="LOCAL-00001" summary="navigation">
+      <created>1530196570218</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530196570218</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23459000" />
+    <option name="totallyTimeSpent" value="23472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
