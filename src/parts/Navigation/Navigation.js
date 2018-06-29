@@ -67,7 +67,7 @@ export class NavigationContainer extends React.Component {
                         </NavLink>
                       </li>
                       <li>
-                        <button onClick={this.handleLogout()}>Logout</button>
+                        <button onClick={() => this.handleLogout()}>Logout</button>
                       </li>
                     </ul>
 
@@ -101,7 +101,7 @@ export class NavigationContainer extends React.Component {
                   </li>
                   <li>
                     <NavLink
-                      to="/change-user"
+                      to="/login"
                       activeClassName="active"
                     >
                                       Sign In
@@ -109,7 +109,7 @@ export class NavigationContainer extends React.Component {
                   </li>
                   <li>
                     <NavLink
-                      to="/change-user"
+                      to="/registration"
                       activeClassName="active"
                     >
                                       Sign Up
