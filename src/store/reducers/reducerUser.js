@@ -2,8 +2,8 @@ import {
   SET_USER,
   UPDATE_USER,
   REMOVE_USER,
-} from './actionsUser';
-import { SET_ERROR } from './actionsError';
+} from '../actions/actionsUser';
+import { SET_ERROR } from '../actions/actionsError';
 
 
 export const user = (state = false, { type, data }) => {

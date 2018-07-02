@@ -44,7 +44,7 @@ export class NavigationContainer extends React.Component {
                   </li>
                   <li>
                     <NavLink
-                      to="/"
+                      to="/contacts"
                       activeClassName="active"
                     >
                               Contacts
@@ -60,7 +60,7 @@ export class NavigationContainer extends React.Component {
                     <ul className="sub-menu">
                       <li>
                         <NavLink
-                          to="/change-user"
+                          to="/profile"
                           activeClassName="active"
                         >
                                       Profile

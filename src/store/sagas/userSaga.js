@@ -1,6 +1,6 @@
 import { takeEvery, put } from 'redux-saga/effects';
 
-import { GET_USER_ASYNC, setUser, LOGIN_USER_ASYNC, LOGOUT_USER_ASYNC, removeUser, UPDATE_USER_ASYNC, updateUser } from '../actionsUser';
+import { GET_USER_ASYNC, setUser, LOGIN_USER_ASYNC, LOGOUT_USER_ASYNC, removeUser, UPDATE_USER_ASYNC, updateUser } from '../actions/actionsUser';
 import { checkUser, login, logout, updateUserFetch } from '../../services';
 
 export function* getUser() {

@@ -15,7 +15,7 @@ export class Registration extends React.Component {
       });
 
       registration(fields)
-        .then(() => this.props.history.push('/thankYouPage'))
+        .then(() => this.props.history.push('/success'))
         .catch(err => console.log('Can\'t login', err));
     }
 
